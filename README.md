@@ -8,6 +8,15 @@ Freestyle is a music-making app for catching an idea the second it appears. Hold
 
 This repository is the home for the product direction and the work required to turn that feeling into a real, low-latency iPhone experience.
 
+## Try the web prototype
+
+`index.html` is a self-contained, dependency-free web version of the core loop: tap ● to record and ■ to close the loop, drum pads, metronome, mute/solo, per-track shaping, undo, autosave, and WAV export.
+
+- **Locally:** `python3 -m http.server` in this folder, then open <http://localhost:8000>. The microphone needs `localhost` or HTTPS.
+- **GitHub Pages:** Settings → Pages → Deploy from branch → `main` / root. The app is served at `https://<user>.github.io/<repo>/`.
+
+Headphones give the tightest takes. If loops land late or early, adjust **Timing fix** in session settings.
+
 ## The idea
 
 Live looping is powerful, but most tools make a beginner think about tracks, timelines, routing, and settings before they have made a sound. Freestyle takes the opposite approach:
